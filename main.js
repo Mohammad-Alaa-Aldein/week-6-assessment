@@ -143,7 +143,7 @@ function avgLength(arr) {
   var sum=0
   var newArr=arr.reduce((x,y)=>
   	sum=sum+y.name.length,4)
-return sum/5;
+return sum/arr.length;
 
 }
 
